@@ -142,6 +142,7 @@
   margin: 80px;
   display: flex;
   gap: 40px;
+  style= border: none;
 }
 
 .recipes__span-video-caption {
@@ -159,4 +160,5 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
