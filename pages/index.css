@@ -17,6 +17,9 @@
   flex-direction: column;
   background-color: #ffffff;
   background-image: url(/images/background_header.svg);
+  background-position: center/cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 .nav {
