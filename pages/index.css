@@ -173,9 +173,8 @@
 }
 
 .form {
-  /* max-width: 385px; */
+  max-width: 385px;
   background-color: #d9e7ff;
-  /* background-image: url(/images/background_reservation.svg); */
 }
 
 .form__label {
@@ -205,6 +204,7 @@
   border: none;
   padding: 0;
   margin: 0;
+  max-width: 385px;
 }
 
 .form__input {
@@ -227,13 +227,17 @@
   color: white;
 }
 
-form__checkbox {
+.form__checkbox {
   width: 20px;
   height: 20px;
+  margin-right: 12px;
 }
 
 .reservation {
   padding: 100px 0 120px;
+  background-image: url(/images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
 }
 
 .reservation__title {
@@ -248,4 +252,125 @@ form__checkbox {
 
 .reservation__form.form {
   margin: auto;
+}
+
+.menu {
+  background-image: url(/images/background_menu.svg);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.menu__title {
+  text-align: center;
+  margin: 100px 0 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  text-align: center;
+  margin: 0 0 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card {
+  width: 540px;
+}
+
+.menu__cards {
+  margin: 0 100px 100px;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 100px;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card__list-item {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 16px;
+  display: flex;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
+
+.about {
+  background-color: #0a2850;
+  display: flex;
+  justify-content: space-between;
+  padding: 119px 80px 173px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__title {
+  max-width: 251px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0 0 80px;
+  color: white;
+  z-index: 5px;
+}
+
+.about__content {
+}
+
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  max-width: 660px;
+  margin: 0 0 20px;
+}
+
+.about__circle {
+  border: 1px solid black;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #2f80ed;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
 }
