@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  /* position: relative; */
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -8,10 +8,12 @@
   flex-direction: column;
   background-color: #ffffff;
   background-image: url(/images/background_header.svg);
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   box-sizing: border-box;
   background-position: right;
+  z-index: 1;
+  position: relative;
 }
 
 .header__title {
@@ -48,7 +50,7 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: auto;
@@ -73,4 +75,5 @@
   width: 100%;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
