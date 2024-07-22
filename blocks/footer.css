@@ -19,6 +19,11 @@
   margin-bottom: 0;
 }
 
+.footer__social-heading:last-of-type {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .footer__social-link {
   color: white;
   transition: color 0.5s;
@@ -40,9 +45,18 @@
   margin-top: 108px;
 }
 
+.footer__copyright:last-of-type {
+  margin-bottom: 0;
+}
+
 .footer__list {
   padding: 0;
   list-style-type: none;
+}
+
+.footer__list:last-of-type {
+  margin-top: o;
+  margin-bottom: 0;
 }
 
 .footer__list-item {
@@ -51,4 +65,9 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
 }
