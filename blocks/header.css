@@ -1,5 +1,4 @@
 .header {
-  /* position: relative; */
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -34,7 +33,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -50,10 +49,11 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: auto;
+  margin-top: auto;
+  align-items: end;
 }
 
 .header__paragraph {
@@ -64,7 +64,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  padding-right: 200px;
 }
 
 .header__image {

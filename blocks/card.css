@@ -27,6 +27,10 @@
   display: flex;
 }
 
+.card__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
